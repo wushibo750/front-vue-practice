@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import VueRouter from "vue-router";
 import Home from "@/components/Home";
+import Index from "@/components/table/Index";
 Vue.use(VueRouter)
 import Login from '@/components/Login'
 import UserList from "@/components/UserList";
@@ -22,6 +23,10 @@ export default new VueRouter({
             path:"/",
             component:Element1
             // redirect:'/users'
+        },
+        {
+            path:'/Index',
+            component:Index
         },
         {
           path:'/display',

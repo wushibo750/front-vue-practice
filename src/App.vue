@@ -1,22 +1,23 @@
 <template>
   <div id="app">
-    <div>APP根组件</div>
-<!--    header组件-->
-    <EsHeader title="购物车案例"></EsHeader>
-<!--    goods组件-->
-    <EsGoods v-for="item in goodslist"
-             :key="item.id"
-             :id="item.id"
-             :thumb="item.goods_img"
-             :title="item.goods_name"
-             :price="item.goods_price"
-             :count="item.goods_count"
-             :checked="item.goods_state"
-             @stateChange="onGoodsStateChange"
-             @countChange="onGoodsCountChange">
-    </EsGoods>
-<!--    footer组件-->
-    <EsFooter :total="total" :amount="amount" @fullChange="onFullStateChange"></EsFooter>
+    <router-view></router-view>
+<!--&lt;!&ndash;    header组件&ndash;&gt;-->
+<!--    <EsHeader title="购物车案例"></EsHeader>-->
+<!--&lt;!&ndash;    goods组件&ndash;&gt;-->
+<!--    <EsGoods v-for="item in goodslist"-->
+<!--             :key="item.id"-->
+<!--             :id="item.id"-->
+<!--             :thumb="item.goods_img"-->
+<!--             :title="item.goods_name"-->
+<!--             :price="item.goods_price"-->
+<!--             :count="item.goods_count"-->
+<!--             :checked="item.goods_state"-->
+<!--             @stateChange="onGoodsStateChange"-->
+<!--             @countChange="onGoodsCountChange">-->
+<!--    </EsGoods>-->
+<!--&lt;!&ndash;    footer组件&ndash;&gt;-->
+<!--    <EsFooter :total="total" :amount="amount" @fullChange="onFullStateChange"></EsFooter>-->
+
 
 <!--    <Display></Display>-->
 <!--    <mavon-editor v-model="value"/>-->

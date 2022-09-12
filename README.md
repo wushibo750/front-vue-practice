@@ -1,5 +1,10 @@
 # vuepractice
 
+# 1.购物车案例
+> 代码位置     
+> src/components/shopcar
+# 2.传统布局
+> ![images/img.png](images/img.png)
 ## Project setup
 ```
 npm install
