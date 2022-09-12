@@ -21,6 +21,10 @@ Vue.filter('toFixed1',(val,data)=>{
 })
 //导入Vuex
 import store from './store/index.js'
+//导入boostrap样式
+import './assets/css/bootstrap.css'
+//导入全局css
+import './assets/index.css'
 
 Vue.config.productionTip = false
 axios.defaults.baseURL='http://localhost:8080'
