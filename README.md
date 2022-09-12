@@ -5,6 +5,8 @@
 > src/components/shopcar
 # 2.传统布局
 > ![images/img.png](images/img.png)
+# 3.表格案例（关于插槽）路由访问地址
+> ![img.png](images/img1.png)
 ## Project setup
 ```
 npm install
